@@ -1,18 +1,23 @@
 {
   "name": "ia-fluxo-copilot-actions",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "Projeto demonstrando uso de GitHub Copilot e GitHub Actions para acelerar desenvolvimento e garantir qualidade",
+  "main": "src/server.js",
   "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "github-copilot",
+    "github-actions",
+    "ci",
+    "jest",
+    "nodejs",
+    "ia"
+  ],
+  "author": "Pedro Henrique Lima Fortunato",
+  "license": "ISC",
   "dependencies": {
     "express": "^5.2.1"
   },
